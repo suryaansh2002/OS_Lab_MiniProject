@@ -1,0 +1,190 @@
+body{
+    height:100%;
+    width:99%;
+    background-color:rgb(18, 18, 41);
+    overflow-x: hidden;
+  }
+
+  table{
+    border: 2px solid teal;
+    width: 20vw;
+  }
+
+  button{
+    border-color: black;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: orange;
+  }
+  
+  td, th{
+    padding: 5px;
+    background-color: white;
+    outline: none;
+    border:none;
+
+  }
+  
+  input{
+    padding: 8px;
+    border: none;
+    outline: none;
+  }
+
+*:focus{
+    outline: none;
+    border: none;
+
+  }
+  
+  .wrapper{
+    padding:10px;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+  
+  .tables{
+    padding-bottom:8%;
+  }
+  
+  .allocation{
+    width:23%;
+    float:left;
+  }
+  
+  .max{
+    width:23%;
+    float:left;
+  }
+  
+  .need{
+    width:23%;
+    float:left;
+  }
+  
+  .available{
+    width:23%;
+    float:left;
+  }
+  
+
+  
+  .seq{
+    margin-top: 10rem;
+    display: block;
+    width: 100vw;
+    padding-top:3%;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+  }
+  
+  .comparison{
+    padding-top: 10%;
+    padding-left: 7%;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    display: none;
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 2rem;
+  }
+  
+  .cname{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .cname:hover{
+    color:black;
+    font-size: 24px;
+  }
+
+  .inst{
+    color: white;
+    font-size: 1.25rem;
+    margin: 1rem;
+  }
+
+  .inst input{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid teal;
+    padding: 0.25rem 1rem;
+    font-size: 1.25rem;
+    color: white;
+
+  }
+.inst input:focus{
+    border:none;
+
+}
+  .inst-h{
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.btns{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}  
+
+.btns button{
+    background-color: teal;
+    border: 2px solid teal;
+    border-radius: 0;
+    color: white;
+    font-size: 1.1rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+.btns button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.process{
+    background-color: teal;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.operations{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.footer{
+  width: 100vw;
+  padding: 0.5rem;
+  background-color: teal;
+  color: white;
+  margin-top: 15%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.foot-h{
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.made{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
