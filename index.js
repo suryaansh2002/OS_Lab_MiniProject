@@ -169,6 +169,7 @@ async function find_sequence() {
             }
         }
     }
+    console.log("Checker ", checker);
     if (checker != 5) {
         alert("Deadlock!!");
         reset();
