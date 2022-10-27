@@ -169,7 +169,7 @@ async function find_sequence() {
             }
         }
     }
-    if (checker == 0) {
+    if (checker != 5) {
         alert("Deadlock!!");
         reset();
     }
