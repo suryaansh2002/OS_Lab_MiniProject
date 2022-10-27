@@ -24,6 +24,8 @@ function reset() {
     document.getElementsByClassName('seq')[0].style.display='none';
     document.getElementsByClassName('comparison')[0].style.display='none';
     document.getElementsByClassName('comparison')[0].style.paddingTop='10%';
+    document.getElementsByClassName('footer')[0].style.marginTop='15%';
+
     document.getElementById('resourceA').value = '';
     document.getElementById('resourceB').value = '';
     document.getElementById('resourceC').value = '';
@@ -101,7 +103,6 @@ function find_avai() {
 }
 
 function find_need() {
-    // find_avai();
     document.getElementsByClassName('comparison')[0].style.display='block';
     document.getElementById('calc1').innerHTML = ' Calculating the Need Matrix....' + '<br/>' + 'Need[n][n] = Max[n][n] - Allocation[n][n]' + '<br/>';
     document.getElementById('calc2').innerHTML = '';
@@ -119,8 +120,6 @@ function find_need() {
 
 
 async function find_sequence() {
-    // find_avai();
-    // find_need();
     document.getElementsByClassName('seq')[0].style.display='block';
     document.getElementsByClassName('comparison')[0].style.display='block';
     document.getElementsByClassName('comparison')[0].style.paddingTop=0;
